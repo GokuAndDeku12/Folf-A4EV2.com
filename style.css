@@ -1,0 +1,49 @@
+
+body{
+    background: linear-gradient(red, rgb(69, 173, 69));
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.searcBar{
+   background: blue;
+   padding: 20px;
+   border-radius: 50px;
+}
+
+.searcBar input{
+    padding: 20px;
+    border-radius: 50px;
+    background: white;
+    padding-right: 200px;
+    border: none;
+    font-size: 20px;
+}
+
+.searcBar button{
+    padding: 20px;
+    border-radius: 50px;
+    background: gray;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.searcBar button:hover{
+    background: red;
+}
+
+.searcBar button:active{
+    background: whitesmoke;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+}
